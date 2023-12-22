@@ -1,0 +1,54 @@
+{
+    "apiVersion": "7.2.3.0",
+    "title": "Fusio",
+    "paymentCurrency": "EUR",
+    "categories": [
+        "authorization",
+        "system",
+        "consumer",
+        "backend",
+        "default"
+    ],
+    "scopes": [
+        "default"
+    ],
+    "apps": {
+        "developer": "https:\/\/demo.fusio-project.org\/apps\/developer",
+        "fusio": "https:\/\/demo.fusio-project.org\/apps\/fusio",
+        "redoc": "https:\/\/demo.fusio-project.org\/apps\/redoc"
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "https:\/\/demo.fusio-project.org\/"
+        },
+        {
+            "rel": "openapi",
+            "href": "https:\/\/demo.fusio-project.org\/system\/generator\/spec-openapi"
+        },
+        {
+            "rel": "typeapi",
+            "href": "https:\/\/demo.fusio-project.org\/system\/generator\/spec-typeapi"
+        },
+        {
+            "rel": "route",
+            "href": "https:\/\/demo.fusio-project.org\/system\/route"
+        },
+        {
+            "rel": "health",
+            "href": "https:\/\/demo.fusio-project.org\/system\/health"
+        },
+        {
+            "rel": "oauth2",
+            "href": "https:\/\/demo.fusio-project.org\/authorization\/token"
+        },
+        {
+            "rel": "whoami",
+            "href": "https:\/\/demo.fusio-project.org\/authorization\/whoami"
+        },
+        {
+            "rel": "about",
+            "href": "https:\/\/www.fusio-project.org"
+        }
+    ]
+}
