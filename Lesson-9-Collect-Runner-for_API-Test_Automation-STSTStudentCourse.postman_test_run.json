@@ -1,0 +1,169 @@
+{
+	"id": "a3da0b5e-6f97-471d-9b53-c700edd74bd0",
+	"name": "STSTStudentCourse",
+	"timestamp": "2024-01-11T14:38:37.864Z",
+	"collection_id": "31954423-c259839a-ad65-4a7f-90aa-64bececaf8ba",
+	"folder_id": 0,
+	"environment_id": "31954423-3e18e86a-e446-471b-93de-687fa12d6021",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-01-11T14:38:35.137Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ca8da08d-1815-4a59-a5f0-4e1b6af02171",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Confirm that paymentCurrency is EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that paymentCurrency is EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Confirm that paymentCurrency is EUR": true
+				}
+			]
+		},
+		{
+			"id": "b98deb22-6642-4ad1-affe-27b72e29819c",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				263
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1053d696-a99f-440d-bd04-75674a8c9ee7",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 262,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				262
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92e6647c-06cb-49a3-ad04-6829c80c26dc",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				287
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ca78bb7-2cff-44b6-8358-892b272debb8",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				252
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6fe6562b-838c-4715-9005-f070c2501276",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 256,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				256
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1581,
+	"collection": {
+		"requests": [
+			{
+				"id": "ca8da08d-1815-4a59-a5f0-4e1b6af02171",
+				"method": "GET"
+			},
+			{
+				"id": "b98deb22-6642-4ad1-affe-27b72e29819c",
+				"method": "GET"
+			},
+			{
+				"id": "1053d696-a99f-440d-bd04-75674a8c9ee7",
+				"method": "GET"
+			},
+			{
+				"id": "92e6647c-06cb-49a3-ad04-6829c80c26dc",
+				"method": "GET"
+			},
+			{
+				"id": "9ca78bb7-2cff-44b6-8358-892b272debb8",
+				"method": "GET"
+			},
+			{
+				"id": "6fe6562b-838c-4715-9005-f070c2501276",
+				"method": "GET"
+			}
+		]
+	}
+}
