@@ -1,4 +1,4 @@
-package com. Ayoade
+package com. Ayoade;
 
 public class main {
     public static void main(String[] args) {
